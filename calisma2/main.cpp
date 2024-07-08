@@ -106,5 +106,47 @@ int main()
 
     // volatile keywordunde external eventlerden bahsetmiş fakat ne olduklarını anlamadım
 
+
+    /****************************************************************************************/
+    // EXERCISES
+    // ex1:
+    cout << "size of CHAR: " << sizeof(char) << "\n size of unsigned char: " << sizeof(unsigned char) <<
+    "\n size of signed char: " << sizeof(signed char) << "\n size of int: " << sizeof(int) <<
+    "\n size of unsigned int: " << sizeof(unsigned int) << "\n size of short: " << sizeof(short) <<
+    "\n size of unsigned short: " << sizeof(unsigned short) << "\n size of long: " << sizeof(long) <<
+    "\n size of unsigned long: " << sizeof(unsigned long) << "\n size of float: " << sizeof(float) <<
+    "\n size of double: " << sizeof(double) << "\n size of long double: " << sizeof(long double) << endl;
+
+    // ex2:
+    cout << "I\n\t\t\"RUSH\"\n\t\t\t\\TO\\\n\t\tAND\n\\FRO\\";
+    cout << endl << endl;
+
+    // ex3, benim cevaplarım
+    // int a(2.5) sıkıntılı cünkü type int ama sayi double
+    // int b = '?'; type'ı int ama char yazmış
+    // char z(500); 500 çok fazla, max 127 oluyodu
+    // double he's(1.2E+5); variable isminde problem var?
+    //  unsigned size(40000); type unsigned demiş ama sadece unsigned diye bi type yok
+    // float val = 12345.12345; floatta 6 rakama bakılıyodu burada 10 tane var
+
+    // ex3 dogru cevaplar
+    //int a(2.5); // 2.5 is not an integer value
+    //const long large; // Without initialization
+    //char z(500); // The value 500 is too large
+    // // to fit in a byte
+    //int big = 40000; // Attention! On 16-bit systems
+    // // int values are <= 32767
+    //double he's(1.2E+5); // The character ' is not
+    // // allowed in names
+    //float val = 12345.12345; // The accuracy of float
+    // // is only 6 digits
+
+
+    // ex4:
+    double num1 = 123.456;
+    double num2 = 76.543;
+    cout << "Toplam: " << num1 + num2 << "\nFark: " << num1-num2 << endl;
+    /****************************************************************************************/
+
     return 0;
 }
