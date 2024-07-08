@@ -130,5 +130,7 @@ int main() {
     animal = &kopek;
     animal->MakeNoise();
 
+    // kendime not: syf 27-34 arasına düzgünce bak
+
     return 0;
 }
