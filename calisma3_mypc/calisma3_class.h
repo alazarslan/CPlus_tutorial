@@ -26,6 +26,8 @@ public:
 
     double exp_func(double x);
 
+    double power_func(double base, double exponent);
+
 private:
     /*
      * @brief: this function gets the absolute value of the given number

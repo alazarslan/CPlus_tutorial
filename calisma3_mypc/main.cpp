@@ -16,6 +16,7 @@ int main() {
     cout << "Custom made ln(10): " << myVar.ln_func(10)  << " --- The real value of ln(10) is: 2,30258" << endl;
     cout << myVar.log_func(3.3, 15);
     */
-    cout << myVar.exp_func(12);
+    cout << myVar.exp_func(12) << endl;
+    cout << myVar.power_func(5,12.2);
     return 0;
 }

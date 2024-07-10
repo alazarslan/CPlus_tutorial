@@ -73,6 +73,12 @@ double calismaClass::log_func(double base, double x)
 
 double calismaClass::exp_func(double x)
 {
+
+    if (x > 1) {
+        double half_exp = exp_func(x / 2);
+        return half_exp * half_exp;
+    }
+
     double nominator, result = 0;
     for (int k = 0; k < 14; k++)
     {
@@ -87,4 +93,10 @@ double calismaClass::exp_func(double x)
         result = result + (nominator / denominator);
     }
     return result;
+}
+
+double calismaClass::power_func(double base, double exponent)
+{
+    double calc_1 = exponent * ln_func(base);
+    return exp_func(calc_1);
 }
