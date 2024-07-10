@@ -8,6 +8,7 @@
 //#include <cstring>
 //#include <cmath>
 using namespace std;
+
 double calismaClass::absolute(double num)
 {
     return num * -1;
@@ -63,4 +64,9 @@ double calismaClass::powerFuncUsingIntExponents(double base, int exponent)
         }
     }
     return result;
+}
+
+double calismaClass::log_func(double base, double x)
+{
+    return ln_func(x) / ln_func(base);
 }

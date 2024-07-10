@@ -10,10 +10,19 @@ public:
     /*
      * @brief: this function is the methodology of arithmetic operation "ln",
      * it does not give the exact true answer but the result is nearly the true.
-     * @param: the number to get the ln value of
+     * @param: the number inside ln function (x)
      * @return: returns the ln value of the number
     */
     double ln_func(double x);
+
+    /*
+     * @brief: this function is the methodology of arithmetic operation "log",
+     * it does not give the exact true answer but the result is nearly the true.
+     * @param1: base of log
+     * @param2: the number inside log function (x)
+     * @return: returns the log value of the number
+    */
+    double log_func(double base, double x);
 
 private:
     /*
