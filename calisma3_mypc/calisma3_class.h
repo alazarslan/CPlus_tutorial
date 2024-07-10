@@ -24,6 +24,8 @@ public:
     */
     double log_func(double base, double x);
 
+    double exp_func(double x);
+
 private:
     /*
      * @brief: this function gets the absolute value of the given number

@@ -70,3 +70,21 @@ double calismaClass::log_func(double base, double x)
 {
     return ln_func(x) / ln_func(base);
 }
+
+double calismaClass::exp_func(double x)
+{
+    double nominator, result = 0;
+    for (int k = 0; k < 14; k++)
+    {
+        int denominator = 1;
+        nominator = powerFuncUsingIntExponents(x, k);
+        int j = k;
+        while (j > 1)
+        {
+            denominator = denominator * j;
+            j--;
+        }
+        result = result + (nominator / denominator);
+    }
+    return result;
+}
