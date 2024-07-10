@@ -1,0 +1,17 @@
+# ninja log v5
+1	439	7423142413759545	CMakeFiles/calisma3_mypc.dir/main.cpp.obj	cd98effb08647c58
+2	230	7423142918039293	CMakeFiles/calisma3_mypc.dir/calisma3_class.cpp.obj	9649556b5816b091
+231	313	7423142918839474	calisma3_mypc.exe	b9eaa17ee97237fc
+7	247	7423147952139743	CMakeFiles/calisma3_mypc.dir/calisma3_class.cpp.obj	9649556b5816b091
+3	406	7423147953740092	CMakeFiles/calisma3_mypc.dir/main.cpp.obj	cd98effb08647c58
+406	488	7423147954530273	calisma3_mypc.exe	b9eaa17ee97237fc
+3	370	7423148253074255	CMakeFiles/calisma3_mypc.dir/main.cpp.obj	cd98effb08647c58
+371	442	7423148253764418	calisma3_mypc.exe	b9eaa17ee97237fc
+2	372	7423148400985820	CMakeFiles/calisma3_mypc.dir/main.cpp.obj	cd98effb08647c58
+373	445	7423148401675983	calisma3_mypc.exe	b9eaa17ee97237fc
+3	363	7423148830019168	CMakeFiles/calisma3_mypc.dir/main.cpp.obj	cd98effb08647c58
+363	437	7423148830749333	calisma3_mypc.exe	b9eaa17ee97237fc
+2	224	7423149043755052	CMakeFiles/calisma3_mypc.dir/calisma3_class.cpp.obj	9649556b5816b091
+225	301	7423149044495219	calisma3_mypc.exe	b9eaa17ee97237fc
+3	228	7423150041505157	CMakeFiles/calisma3_mypc.dir/calisma3_class.cpp.obj	9649556b5816b091
+228	300	7423150042195313	calisma3_mypc.exe	b9eaa17ee97237fc
