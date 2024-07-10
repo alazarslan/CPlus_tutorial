@@ -15,18 +15,32 @@ double calismaClass::absolute(double num)
 
 double calismaClass::ln_func(double x)
 {
+    double copy_x = x;
+    /*
+     * ln(x)'s taylor series expansion only works when x is between 0 and 2. We know that ln(x) = - ln(1/x).
+     * By using the equation on the top, I solved the issue.
+     */
+    if (copy_x > 2) {
+        copy_x = 1 / copy_x;
+    }
     double result = 0, calculation;
 
     /*
-     * Normally, in the taylor series expansion of ln(x), n from 1 to infinity,
+     * Normally, in the taylor series expansion of ln(x), n is goes from 1 to infinity,
      * but because it cant go to infinity in program, n should go to a finite number,
-     * after trying with n= 2,5,10 and 100 i decided that 100 is the best number for the calculation.
+     * after trying with n= 2,5,10,100,500 and 1000 I decided that 500 is the best number for the calculation.
     */
-    for (int n = 1; n <= 100; n++)
+    for (int n = 1; n <= 500; n++)
     {
-        calculation = powerFuncUsingIntExponents(-1,n+1) * (powerFuncUsingIntExponents(x-1,n) / n);
+        calculation = powerFuncUsingIntExponents(-1,n+1) * (powerFuncUsingIntExponents(copy_x-1,n) / n);
         result += calculation;
     }
+
+    if (x > 2)
+    {
+        return -1 * result;
+    }
+    // If the given number x is between 0 and 2, no need to change the result.
     return result;
 }
 

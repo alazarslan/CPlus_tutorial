@@ -8,7 +8,8 @@
 class calismaClass {
 public:
     /*
-     * @brief: this function is the methodology of arithmetic operation "ln"
+     * @brief: this function is the methodology of arithmetic operation "ln",
+     * it does not give the exact true answer but the result is nearly the true.
      * @param: the number to get the ln value of
      * @return: returns the ln value of the number
     */
