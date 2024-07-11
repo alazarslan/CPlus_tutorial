@@ -4,6 +4,7 @@
 #include <string>
 #include <sstream>
 using namespace std;
+
 int main() {
     calismaClass myVar;
     /*
@@ -17,6 +18,7 @@ int main() {
     cout << myVar.log_func(3.3, 15);
     */
     cout << myVar.exp_func(12) << endl;
-    cout << myVar.power_func(5,12.2);
+    cout << myVar.power_func(2,2) << endl;
+    cout << myVar.sin_func(13) << endl;
     return 0;
 }
