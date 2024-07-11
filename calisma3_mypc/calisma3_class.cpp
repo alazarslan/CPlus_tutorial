@@ -146,3 +146,39 @@ double calismaClass::sin_func(double x)
     }
     return result;
 }
+
+double calismaClass::cos_func(double x)
+{
+    /*
+     * I used taylor series expansion for this function.
+     * In this expansion, after some certain point, which is cos(8), this expansion no longer works for cos(x).
+     * cos(2pi) or cos(6.283) is equal to 1, so I used this number to squeeze the given number x between 0 and 2pi.
+     */
+    while (x > 6.283)
+    {
+        x = x - 6.283;
+    }
+    while (x < -6.283)
+    {
+        x = x + 6.283;
+    }
+    if (x == 6.283)
+    {
+        return 1;
+    }
+    double result = 0;
+    for (int n = 0; n < 10; n++)
+    {
+        int a = power_func(-1,n);
+        int j = 2*n;
+        long double factorial_result = 1; // I made this variable long double because after some point it gets too big, and integer does not allow those big number
+        while (j > 1)
+        {
+            factorial_result = factorial_result * j;
+            j--;
+        }
+        double b = power_func(x, (2*n)) / factorial_result;
+        result = result + (a*b);
+    }
+    return result;
+}

@@ -20,5 +20,6 @@ int main() {
     cout << myVar.exp_func(12) << endl;
     cout << myVar.power_func(2,2) << endl;
     cout << myVar.sin_func(13) << endl;
+    cout << myVar.cos_func(-3) << endl;
     return 0;
 }

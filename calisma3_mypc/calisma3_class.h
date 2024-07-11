@@ -50,6 +50,14 @@ public:
     */
     double sin_func(double x);
 
+    /*
+     * @brief: this function is the cos(x) function
+     * it does not give the exact correct answer, but the result is nearly the correct.
+     * @param: number inside the function
+     * @return: returns the cos(x)'s value
+    */
+    double cos_func(double x);
+
 private:
     /*
      * @brief: this function gets the absolute value of the given number
