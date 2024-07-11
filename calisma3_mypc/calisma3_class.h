@@ -67,6 +67,23 @@ public:
     */
     double root_func(double inside, double root_degree);
 
+    /*
+     * @brief: this function is the arctan function
+     * it works between -0.8 and 0.8, but after those points function doesn't work properly.
+     * It is due to taylor series expansion, and I couldn't find a solution to this problem.
+     * @param1: number inside the function
+     * @return: returns the arctan value
+    */
+    double arctan_func(double x);
+
+    /*
+     * @brief: this function is the tan function
+     * it does not give the exact correct result, but the result is nearly the true.
+     * @param1: number inside the function
+     * @return: returns the tan value
+    */
+    double tan_func(double x);
+
 private:
     /*
      * @brief: this function gets the absolute value of the given number

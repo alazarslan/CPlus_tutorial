@@ -188,3 +188,25 @@ double calismaClass::root_func(double inside, double root_degree)
     double power_exponent = 1 / root_degree;
     return power_func(inside, power_exponent);
 }
+
+double calismaClass::arctan_func(double x)
+{
+    /*
+     * I used taylor series expansion for this function.
+     * In this expansion, after some certain point, which is arctan(0.8), this expansion no longer works for arctan(x).
+     * 0.8'den sonrası için bir çözüm bulamadım, ama fonksiyon 0.8 ile -0.8 arasında doğru çalışıyor
+     */
+    double result = 0;
+    for (int n = 0; n < 10; n++)
+    {
+        int a = power_func(-1,n);
+        double b = power_func(x, ((2*n) + 1)) / ((2*n)+1);
+        result = result + (a*b);
+    }
+    return result;
+}
+
+double calismaClass::tan_func(double x)
+{
+    return sin_func(x) / cos_func(x);
+}
