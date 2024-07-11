@@ -84,6 +84,27 @@ public:
     */
     double tan_func(double x);
 
+    /*
+     * @brief: this function is the cosh(hyperbolic cosine) function
+     * it does not give the exact correct result, but the result is nearly true.
+     * @param1: number inside the function
+     * @return: returns the cosh value
+    */
+    double cosh_func(double x);
+
+    /*
+     * @brief: functions below are the sample programs and exercises given in the book.
+    */
+    void sample_program1();
+
+    void sample_program2();
+
+    void sample_program3();
+
+    void exercise1();
+
+    void exercise2();
+
 private:
     /*
      * @brief: this function gets the absolute value of the given number

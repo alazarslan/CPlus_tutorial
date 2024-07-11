@@ -1,8 +1,6 @@
 #include <iostream>
 #include "calisma3_class.h"
-#include <cmath>
-#include <string>
-#include <sstream>
+
 using namespace std;
 
 int main() {
@@ -15,5 +13,10 @@ int main() {
     cout << myVar.root_func(99,3) << endl;
     cout << myVar.arctan_func(3) << endl;
     cout << myVar.tan_func(180) << endl;
+    myVar.sample_program1();
+    //myVar.sample_program2();
+    //myVar.sample_program3();
+    //myVar.exercise1();
+    cout << myVar.cosh_func(0) << endl;
     return 0;
 }

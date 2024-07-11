@@ -2,6 +2,7 @@
 // Created by alaz on 09.07.2024.
 //
 
+#include <iostream>
 #include "calisma3_class.h"
 using namespace std;
 
@@ -209,4 +210,101 @@ double calismaClass::arctan_func(double x)
 double calismaClass::tan_func(double x)
 {
     return sin_func(x) / cos_func(x);
+}
+
+double calismaClass::cosh_func(double x)
+{
+    /*
+     * I used taylor series expansion for this function.
+     * In this expansion, after some certain point, which is cos(8), this expansion no longer works for cos(x).
+     * cos(2pi) or cos(6.283) is equal to 1, so I used this number to squeeze the given number x between 0 and 2pi.
+     */
+    double result = 0;
+    for (int n = 0; n < 10; n++)
+    {
+        int j = 2*n;
+        long double factorial_result = 1; // I made this variable long double because after some point it gets too big, and integer does not allow those big number
+        while (j > 1)
+        {
+            factorial_result = factorial_result * j;
+            j--;
+        }
+        double b = power_func(x, (2*n)) / factorial_result;
+        result = result + b;
+    }
+    return result;
+}
+
+void calismaClass::sample_program1()
+{
+    double x = 2.5, y;
+
+    //y = power_func("x", 3.0); // Error! String is not a number
+    //y = power_func(x + 3.0); // Error! Just one argument
+    y = power_func(x, 3.0); // ok!
+    y = power_func(x, 3); // ok! The compiler converts the
+    // int value 3 to double.
+    cout << "2.5 raised to 3 yields: " << y << endl;
+
+    cout << "2 + (5 raised to the power 2.5) yields: " << 2.0 + power_func(5.0, x) << endl;
+}
+
+void calismaClass::sample_program2()
+{
+    unsigned int seed;
+    int z1, z2, z3;
+    cout << " --- Random Numbers --- \n" << endl;
+    cout << "To initialize the random number generator, "
+         << "\n please enter an integer value: ";
+    cin >> seed; // Input an integer
+    srand( seed); // and use it as argument for a
+// new sequence of random numbers.
+    z1 = rand(); // Compute three random numbers.
+    z2 = rand();
+    z3 = rand();
+    cout << "\nThree random numbers: "
+         << z1 << " " << z2 << " " << z3 << endl;
+}
+
+void calismaClass::sample_program3()
+{
+    // Defines four strings:
+    string prompt("What is your name: "),name, // An empty
+    line( 40, '-'),                         // string with 40 '-'
+    total = "Hello ";                             // is possible!
+    cout << prompt;                 // Request for input.
+    getline( cin, name);      // Inputs a name in one line
+    total = total + name;           // Concatenates and
+    // assigns strings.
+    cout << line << endl // Outputs line and name
+         << total << endl;
+    cout << " Your name is " // Outputs length
+         << name.length() << " characters long!" << endl;
+    cout << line << endl;
+}
+
+void calismaClass::exercise1()
+{
+    double num1 = root_func(4,2);
+    double num2 = root_func(12.25,2);
+    double num3 = root_func(0.0121,2);
+
+    cout << "Enter a number to get the square root of: ";
+    double user_num;
+    cin >> user_num;
+    double num4 = root_func(user_num,2);
+    cout << "Number\t" << "Square Root" << endl << "4\t\t" << num1 << endl << "12.25\t\t" << num2 << endl << "0.0121\t\t" << num3 << endl << user_num << "\t\t" << num4 << endl << endl;
+}
+
+void calismaClass::exercise2()
+{
+    // include da iostream ve string yan yana yazılmış, hata.
+    // string message "\nLearn from your mistakes!"; // hata 1
+    //cout << message << endl;
+    //int len = length( message); // hata 2
+    //cout << "Length of the string: " << len << endl;
+    int a, b;
+    //a = srand(12.5); // burayı anlamadım
+    //b = rand( a ); bura da ?
+    cout << "\nRandom number: " << b << endl;
 }
