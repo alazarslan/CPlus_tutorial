@@ -182,3 +182,9 @@ double calismaClass::cos_func(double x)
     }
     return result;
 }
+
+double calismaClass::root_func(double inside, double root_degree)
+{
+    double power_exponent = 1 / root_degree;
+    return power_func(inside, power_exponent);
+}

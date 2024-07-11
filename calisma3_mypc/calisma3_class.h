@@ -58,6 +58,15 @@ public:
     */
     double cos_func(double x);
 
+    /*
+     * @brief: this function is the root function
+     * it does not give the exact correct result, but the result is nearly the true.
+     * @param1: inside the root
+     * @param2: root's degree
+     * @return: returns the root by degree
+    */
+    double root_func(double inside, double root_degree);
+
 private:
     /*
      * @brief: this function gets the absolute value of the given number
