@@ -1,9 +1,7 @@
 #include <iostream>
+#include <cmath>
 #include "calisma5_class.h"
 using namespace std;
-
-#define isCtrl(c) ( c >= 0 && c <= 31 \
-&& c != '\n' && c != '\t')
 
 int main() {
     calisma5_class *myVar = new calisma5_class;
@@ -13,5 +11,6 @@ int main() {
     //myVar->ch7prog3();
     //myVar->ch7codes2();
     //myVar->ch7ex3();
+    myVar->ch8prog1();
     return 0;
 }
