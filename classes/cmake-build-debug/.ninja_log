@@ -1,0 +1,7 @@
+# ninja log v6
+5	947	1724668370818533775	CMakeFiles/classes.dir/YeniClass.cpp.o	a23aa359aa8a2e04
+4	436	1724668419415286421	CMakeFiles/classes.dir/main.cpp.o	bc8bf86338169b28
+5	980	1724668370818533775	CMakeFiles/classes.dir/Account.cpp.o	276d879556ee8eb8
+437	570	1724668419851237702	classes	447bb1d9beba8b7f
+4	1027	1724657157612975851	CMakeFiles/classes.dir/Date.cpp.o	7034afbfee131db
+2	478	1724658588896767232	CMakeFiles/classes.dir/Demo.cpp.o	17bcce67702c1930
