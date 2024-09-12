@@ -143,9 +143,14 @@ int main() {
 
     cout << "Fonksiyonun tersinin sonucu: " <<sonuc << endl;
     */
+
+
     ters_Fonksiyon_class *myVar = new ters_Fonksiyon_class;
     string poli = "-3.5x^2-2.1x+3";
     double x = 3;
     cout << myVar->tersFonksiyon(poli,x) << endl;
+
+
+
     return 0;
 }
