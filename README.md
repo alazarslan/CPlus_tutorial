@@ -17,3 +17,7 @@ saat 00.40-01.00
 
 ara verdiğim için bu saat aralığında pek bir şey yapamadım, << ve >> operatörlerin neden global fonksiyon şeklinde yazmamız gerektiğini türkçeye çeviremedim o yüzden wordde ingilizce yazıyor, türkçeye çeviricem
 **********************************************************************************
+saat 01.00-01.20
+
+çeviriyi yaptım ve deitelin kitabında biraz daha ilerledim ama çok uykum geldi erkenden yatıp 5.30-5.40 gibi uyanmayı planlıyorum. uyanıp çalışmaya devam edicem.
+**********************************************************************************
