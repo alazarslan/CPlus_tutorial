@@ -34,5 +34,23 @@ int main() {
     myClass sonucEksi = multipObj - obj1;
     cout << "Cikarma sonucu: " << sonucEksi.value << endl;
 
+    // < kullanımı
+    bool denemeBool = obj1 < obj2;
+    cout << "obj1 < obj2'nin sonucu (bool olarak): " << denemeBool << endl;
+
+    // > kullanımı
+    bool denemeBool2 = obj1 > obj2;
+    cout << "obj1 > obj2'nin sonucu (bool olarak): " << denemeBool2 << endl;
+
+    // << kullanımı
+    cout << "cout << obj1 << tab << obj2 << endl; Outputu: " << obj1 << "\t" << obj2 << endl;
+
+    // >> kullanımı
+    myClass obj3;
+    cout << "Obj3'e bir deger atayin:";
+    cin >> obj3;
+    cout << "Obj3'un valuesi: " << obj3 << endl;
+
+
     return 0;
 }

@@ -9,6 +9,7 @@
 class myClass {
 public:
     int value;
+    myClass() {};
     myClass(int v) : value(v) {}
 
     // Unary & overload: adresini döndürür
@@ -44,17 +45,40 @@ public:
         return temp;
     }
 
-    // Unary - kullanımı
+    // Unary - overload: negatif değer döner
     inline myClass operator-() {
         return myClass(-value);
     }
 
-    // Binary - kullanımı
+    // Binary - overload: çıkarma işlemi
     inline myClass operator-(const myClass& obj) {
         myClass temp(this->value - obj.value);
         return temp;
     }
+
+    // < overload:
+    inline bool operator<(const myClass& obj) {
+        return this->value < obj.value;
+    }
+
+    // > overload:
+    inline bool operator>(const myClass& obj) {
+        return this->value > obj.value;
+    }
+
 };
 
+// < operatörünün non-member / global fonk. olarak yazimi:
+//inline bool operator<(const myClass& obj1, const myClass& obj2);
+
+inline std::ostream& operator<<(std::ostream& os, const myClass& obj) {
+    os << obj.value;
+    return os;
+}
+
+inline std::istream& operator>>(std::istream& is, myClass& obj) {
+    is >> obj.value;
+    return is;
+}
 
 #endif //MAINPCCALISMA_MYCLASS_H
