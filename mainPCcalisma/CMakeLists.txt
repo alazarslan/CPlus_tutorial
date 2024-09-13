@@ -3,4 +3,6 @@ project(mainPCcalisma)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(mainPCcalisma main.cpp)
+add_executable(mainPCcalisma main.cpp
+        myClass.cpp
+        myClass.h)
