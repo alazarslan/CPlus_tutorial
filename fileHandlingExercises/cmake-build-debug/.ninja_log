@@ -1,0 +1,19 @@
+# ninja log v6
+4	1189	1725974626396086753	CMakeFiles/fileHandlingExercises.dir/AlazClass.cpp.o	5d91776ad801573f
+734	860	1725975768592926932	fileHandlingExercises	a30d4a977bbfdcb0
+4	733	1725975767864911136	CMakeFiles/fileHandlingExercises.dir/main.cpp.o	79892dd5a8dc72aa
+7	779	1725975778841137353	CMakeFiles/fileHandlingExercises.dir/main.cpp.o	79892dd5a8dc72aa
+779	904	1725975779613152301	fileHandlingExercises	a30d4a977bbfdcb0
+2	712	1725975806089596746	CMakeFiles/fileHandlingExercises.dir/main.cpp.o	79892dd5a8dc72aa
+713	837	1725975806801606979	fileHandlingExercises	a30d4a977bbfdcb0
+4	750	1725975813989705795	CMakeFiles/fileHandlingExercises.dir/main.cpp.o	79892dd5a8dc72aa
+750	880	1725975814737715594	fileHandlingExercises	a30d4a977bbfdcb0
+7	1014	1725976569358419961	CMakeFiles/fileHandlingExercises.dir/main.cpp.o	79892dd5a8dc72aa
+10	1037	1725976569362419947	CMakeFiles/fileHandlingExercises.dir/AlazClass.cpp.o	5d91776ad801573f
+1037	1215	1725976570386416181	fileHandlingExercises	a30d4a977bbfdcb0
+14	938	1725977356205582088	CMakeFiles/fileHandlingExercises.dir/main.cpp.o	79892dd5a8dc72aa
+16	977	1725977356209582395	CMakeFiles/fileHandlingExercises.dir/AlazClass.cpp.o	5d91776ad801573f
+977	1124	1725977357169656038	fileHandlingExercises	a30d4a977bbfdcb0
+10	1634	1726038494964229324	CMakeFiles/fileHandlingExercises.dir/main.cpp.o	79892dd5a8dc72aa
+13	1782	1726038494968229406	CMakeFiles/fileHandlingExercises.dir/AlazClass.cpp.o	5d91776ad801573f
+1782	2004	1726038496736265959	fileHandlingExercises	a30d4a977bbfdcb0

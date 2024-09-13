@@ -15,6 +15,11 @@ public:
     void ch7prog3();
     void ch7codes2();
     void ch7ex3();
+
+    /*
+     * @brief: this program draws an ellipse
+     */
+    void ch8prog1();
 };
 
 
