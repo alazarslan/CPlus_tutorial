@@ -41,3 +41,11 @@ saat 09.00-10.00
 
 class'a destructor, getsize, !=, ==, = operatörlerini implementledim
 **********************************************************************************
+saat 10.00-11.00
+
+ara verdim çok çalışmadım, classa << ve >> operatörlerini implement ettim
+**********************************************************************************
+saat 11.00-12.00
+
+youtubeden classlar ve operator overloadingle alakalı videolar izliyorum
+**********************************************************************************
