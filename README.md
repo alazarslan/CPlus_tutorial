@@ -28,5 +28,8 @@ uyudum uyandım
 saat 06.00-06.30
 
 uyandım kahve vs hazırladım kendime derse başlıyorum
+**********************************************************************************
+saat 06.30-08.00
 
+6.30'dan 7ye sadece okuma yaptığım için  8'e kadar yaptıklarımla beraber birleştirip pushluyorum. "!" operatörü ve Prefix ve postfix++, -- operatörlerinin overloadlanması ve genel olarak unary operatorler member ve non-member fonksiyon olarak overloadlanırken nelere dikkat edilmesi gerektiği üzerine çalıştım.
 **********************************************************************************
