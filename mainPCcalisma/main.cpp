@@ -1,5 +1,6 @@
 #include <iostream>
 #include "myClass.h"
+#include "Array.h"
 using namespace std;
 int main() {
 
@@ -51,6 +52,13 @@ int main() {
     cin >> obj3;
     cout << "Obj3'un valuesi: " << obj3 << endl;
 
-
+    Array arr1;
+    int* p = new int[5];
+    for (int i = 0; i < 5; i++) {
+        p[i] = i + 3;
+    }
+    for (int i = 0; i < 5; i++) {
+        cout << p[i] << endl;
+    }
     return 0;
 }

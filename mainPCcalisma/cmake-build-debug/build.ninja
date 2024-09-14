@@ -61,6 +61,12 @@ build CMakeFiles/mainPCcalisma.dir/myClass.cpp.obj: CXX_COMPILER__mainPCcalisma_
   OBJECT_DIR = CMakeFiles\mainPCcalisma.dir
   OBJECT_FILE_DIR = CMakeFiles\mainPCcalisma.dir
 
+build CMakeFiles/mainPCcalisma.dir/Array.cpp.obj: CXX_COMPILER__mainPCcalisma_unscanned_Debug C$:/Users/ALAZ/Documents/GitHub/CPlus_tutorial/mainPCcalisma/Array.cpp || cmake_object_order_depends_target_mainPCcalisma
+  DEP_FILE = CMakeFiles\mainPCcalisma.dir\Array.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mainPCcalisma.dir
+  OBJECT_FILE_DIR = CMakeFiles\mainPCcalisma.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target mainPCcalisma
@@ -69,7 +75,7 @@ build CMakeFiles/mainPCcalisma.dir/myClass.cpp.obj: CXX_COMPILER__mainPCcalisma_
 #############################################
 # Link the executable mainPCcalisma.exe
 
-build mainPCcalisma.exe: CXX_EXECUTABLE_LINKER__mainPCcalisma_Debug CMakeFiles/mainPCcalisma.dir/main.cpp.obj CMakeFiles/mainPCcalisma.dir/myClass.cpp.obj
+build mainPCcalisma.exe: CXX_EXECUTABLE_LINKER__mainPCcalisma_Debug CMakeFiles/mainPCcalisma.dir/main.cpp.obj CMakeFiles/mainPCcalisma.dir/myClass.cpp.obj CMakeFiles/mainPCcalisma.dir/Array.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\mainPCcalisma.dir

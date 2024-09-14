@@ -9,7 +9,7 @@
 class myClass {
 public:
     int value;
-    myClass() {};
+    myClass() { value = 0; };
     myClass(int v) : value(v) {}
 
     // Unary & overload: adresini döndürür

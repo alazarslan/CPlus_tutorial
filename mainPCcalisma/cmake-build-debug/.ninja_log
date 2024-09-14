@@ -1,5 +1,19 @@
 # ninja log v5
-2	155	7479876576342426	build.ninja	c38c8dac53ef4bf5
+2	155	7479956305181322	build.ninja	c38c8dac53ef4bf5
 6	398	7479639490414502	CMakeFiles/mainPCcalisma.dir/myClass.cpp.obj	f924848d07059573
 2	392	7479640043664287	CMakeFiles/mainPCcalisma.dir/main.cpp.obj	bdbbbdfe029377aa
 392	473	7479640044454466	mainPCcalisma.exe	85cf7c4962352bcd
+13	77	7479964640594557	CMakeFiles/mainPCcalisma.dir/Array.cpp.obj	1adab8977f086343
+9	401	7479964643845296	CMakeFiles/mainPCcalisma.dir/myClass.cpp.obj	f924848d07059573
+3	428	7479964644115345	CMakeFiles/mainPCcalisma.dir/main.cpp.obj	bdbbbdfe029377aa
+428	596	7479964645755715	mainPCcalisma.exe	974403dd78268355
+2	396	7479965898450182	CMakeFiles/mainPCcalisma.dir/main.cpp.obj	bdbbbdfe029377aa
+396	477	7479965899240362	mainPCcalisma.exe	974403dd78268355
+2	385	7479966326396405	CMakeFiles/mainPCcalisma.dir/main.cpp.obj	bdbbbdfe029377aa
+385	468	7479966327206572	mainPCcalisma.exe	974403dd78268355
+3	393	7479967084816921	CMakeFiles/mainPCcalisma.dir/main.cpp.obj	bdbbbdfe029377aa
+393	477	7479967085647098	mainPCcalisma.exe	974403dd78268355
+3	403	7479967534337984	CMakeFiles/mainPCcalisma.dir/main.cpp.obj	bdbbbdfe029377aa
+403	481	7479967535108154	mainPCcalisma.exe	974403dd78268355
+3	401	7479967646323163	CMakeFiles/mainPCcalisma.dir/main.cpp.obj	bdbbbdfe029377aa
+401	486	7479967647133346	mainPCcalisma.exe	974403dd78268355

@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(mainPCcalisma main.cpp
         myClass.cpp
-        myClass.h)
+        myClass.h
+        Array.cpp
+        Array.h)
