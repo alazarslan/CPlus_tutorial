@@ -69,3 +69,8 @@ saat 17.00-18.35
 
 aynı pdfe bakmaya devam ediyorum, ara verdim yemek yiyeceğim
 **********************************************************************************
+saat 19.00- 19.50
+
+inheritence,polymorphism konularının videolarını izlemeye başladım maçtan sonra biraz daha video izleyip pdflerden bakmaya başlayacağım
+**********************************************************************************
+
