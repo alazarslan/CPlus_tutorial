@@ -65,3 +65,7 @@ saat 16.00-17.00
 
 geçen sene aldığım c++ dersinin pdf notlarına bakıp tekrar yaptım(operator overloading), yapmaya devam ediyorum
 **********************************************************************************
+saat 17.00-18.35
+
+aynı pdfe bakmaya devam ediyorum, ara verdim yemek yiyeceğim
+**********************************************************************************
