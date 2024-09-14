@@ -56,6 +56,9 @@ int main() {
     cout << obj1 << endl;
 
     Array obje(5);
-    cout << obje[3];
+    //obje[22] = 21;
+    cout << "5 sayi giriniz: ";
+    cin >> obje;
+    cout << obje;
     return 0;
 }

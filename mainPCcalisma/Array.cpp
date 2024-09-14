@@ -3,17 +3,25 @@
 //
 
 #include "Array.h"
-
+using namespace std;
 Array::Array()
 {
     size = 10;
     arrPtr = new int[10];
+    for (int i = 0; i < size; i++)
+    {
+        arrPtr[i] = 0;
+    }
 }
 
 Array::Array(int num)
 {
     size = num;
     arrPtr = new int[num];
+    for (int i = 0; i < size; i++)
+    {
+        arrPtr[i] = 0;
+    }
 }
 
 Array::Array(const Array &arr)
@@ -106,7 +114,30 @@ const Array& Array::operator=(const Array& arrObj)
     return *this;
 }
 
-int Array::operator[](const int& index)
+int& Array::operator[](const int& index)
 {
+    if (index < 0 || index > size - 1)
+    {
+        cerr << "Error! Index array sinirlerinin disinda!!!" << endl;
+    }
     return arrPtr[index];
+}
+
+
+ostream& operator<<(ostream& os, const Array& arrObj)
+{
+    for (int i = 0; i < arrObj.size; i++)
+    {
+        os << "Array'in " << i <<". Index'teki degeri: " << arrObj.arrPtr[i] << endl;
+    }
+    return os;
+}
+
+istream& operator>>(istream& is, Array& arrObj)
+{
+    for (int i = 0; i < arrObj.size; i++)
+    {
+        is >> arrObj.arrPtr[i];
+    }
+    return is; // enables cin >> x >> y;
 }
