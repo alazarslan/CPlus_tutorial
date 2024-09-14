@@ -49,3 +49,28 @@ saat 11.00-12.00
 
 youtubeden classlar ve operator overloadingle alakalı videolar izliyorum
 **********************************************************************************
+saat 12.00-13.00
+
+kahvaltı yaptım
+**********************************************************************************
+saat 13.30-14.00
+
+youtubeden operator overloading videoları izledim
+**********************************************************************************
+saat 14.20-16.00
+
+çalışmadım
+**********************************************************************************
+saat 16.00-17.00
+
+geçen sene aldığım c++ dersinin pdf notlarına bakıp tekrar yaptım(operator overloading), yapmaya devam ediyorum
+**********************************************************************************
+saat 17.00-18.35
+
+aynı pdfe bakmaya devam ediyorum, ara verdim yemek yiyeceğim
+**********************************************************************************
+saat 19.00- 19.50
+
+inheritence,polymorphism konularının videolarını izlemeye başladım maçtan sonra biraz daha video izleyip pdflerden bakmaya başlayacağım
+**********************************************************************************
+
