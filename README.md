@@ -21,3 +21,12 @@ saat 01.00-01.20
 
 çeviriyi yaptım ve deitelin kitabında biraz daha ilerledim ama çok uykum geldi erkenden yatıp 5.30-5.40 gibi uyanmayı planlıyorum. uyanıp çalışmaya devam edicem.
 **********************************************************************************
+saat 01.40-06.00
+
+uyudum uyandım
+**********************************************************************************
+saat 06.00-06.30
+
+uyandım kahve vs hazırladım kendime derse başlıyorum
+
+**********************************************************************************
