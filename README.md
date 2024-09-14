@@ -77,3 +77,7 @@ gün 2 saat 23.00-00.00
 
 friend kullanımı için çalışma yaptım, copy constructor ve assignment operatorlerle alakalı video izledim
 **********************************************************************************
+saat 00.00-01.20
+
+abstract class ve interface classlarla alakalı internette yazılar buldum onları okudum, ++ -- [] ve relational (<,==,<= gibi) operatörlerinin overloadlanmasıyla alakalı başka videolar izledim
+**********************************************************************************
