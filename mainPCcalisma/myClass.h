@@ -56,20 +56,69 @@ public:
         return temp;
     }
 
-    // < overload:
+    // < (Binary) overload:
     inline bool operator<(const myClass& obj) {
         return this->value < obj.value;
     }
 
-    // > overload:
+    // > (Binary) overload:
     inline bool operator>(const myClass& obj) {
         return this->value > obj.value;
+    }
+
+    // ! (Unary) overload:
+    inline bool operator!() const{
+        if (value == 0)
+            return false;
+        else
+            return true;
+    }
+
+    // Prefix ++ (Unary) overload:
+    inline myClass& operator++() {
+        ++value;
+        return *this;
+    }
+
+    // Postfix ++ (Unary) overload:
+    inline myClass operator++(int) {
+        myClass temp = *this;
+        ++value;
+        return temp;
+    }
+
+    // Prefix -- (Unary) overload:
+    inline myClass& operator--() {
+        --value;
+        return *this;
+    }
+
+    // Postfix -- (Unary) overload:
+    inline myClass operator--(int) {
+        myClass temp = *this;
+        --value;
+        return temp;
+    }
+
+    // += Binary overload:
+    inline myClass& operator+=(const myClass& obj) {
+        value += obj.value;
+        return *this;
+    }
+
+    // -= Binary overload:
+    inline myClass& operator-=(const myClass& obj) {
+        value -= obj.value;
+        return *this;
     }
 
 };
 
 // < operatörünün non-member / global fonk. olarak yazimi:
-//inline bool operator<(const myClass& obj1, const myClass& obj2);
+// inline bool operator<(const myClass& obj1, const myClass& obj2);
+// inline bool operator!(const myClass& obj1);
+// inline myClass& operator+=(myClass& obj1, const myClass& obj2);
+// inline myClass& operator-=(myClass& obj1, const myClass& obj2);
 
 inline std::ostream& operator<<(std::ostream& os, const myClass& obj) {
     os << obj.value;
