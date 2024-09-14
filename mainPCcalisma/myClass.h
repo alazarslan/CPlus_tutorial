@@ -7,6 +7,8 @@
 #include <iostream>
 
 class myClass {
+private:
+    static int shared;
 public:
     int value;
     myClass() { value = 0; };
@@ -112,7 +114,12 @@ public:
         return *this;
     }
 
+    static void updateShared(int i) { shared = i; }
+    static int getShared() { return shared; }
+
 };
+
+
 
 // < operatörünün non-member / global fonk. olarak yazimi:
 // inline bool operator<(const myClass& obj1, const myClass& obj2);

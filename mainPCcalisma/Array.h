@@ -12,6 +12,7 @@ class Array {
 private:
     int size;
     int* arrPtr;
+    static std::string shared;
 public:
     // Default constructor
     Array();
@@ -49,6 +50,8 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const Array& arrObj);
     friend std::istream& operator>>(std::istream& is, Array& arrObj);
 };
+
+
 
 std::ostream& operator<<(std::ostream& os, const Array& arrObj);
 

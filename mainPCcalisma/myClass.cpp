@@ -3,3 +3,5 @@
 //
 
 #include "myClass.h"
+
+int myClass::shared = 34;

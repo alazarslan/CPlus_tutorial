@@ -4,6 +4,10 @@
 using namespace std;
 int main() {
 
+    cout << myClass::getShared() << endl;
+    myClass::updateShared(5);
+    cout << myClass::getShared() << endl;
+
     // Unary & kullanımı
     myClass obj1(4), obj2(10);
     myClass* ptr = &obj1;
@@ -60,5 +64,7 @@ int main() {
     cout << "5 sayi giriniz: ";
     cin >> obje;
     cout << obje;
+
+
     return 0;
 }

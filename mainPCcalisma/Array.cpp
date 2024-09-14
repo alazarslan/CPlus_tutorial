@@ -4,6 +4,9 @@
 
 #include "Array.h"
 using namespace std;
+
+std::string Array::shared = "Alaz";
+
 Array::Array()
 {
     size = 10;
