@@ -73,4 +73,7 @@ saat 19.00- 19.50
 
 inheritence,polymorphism konularının videolarını izlemeye başladım maçtan sonra biraz daha video izleyip pdflerden bakmaya başlayacağım
 **********************************************************************************
+gün 2 saat 23.00-00.00
 
+friend kullanımı için çalışma yaptım, copy constructor ve assignment operatorlerle alakalı video izledim
+**********************************************************************************
