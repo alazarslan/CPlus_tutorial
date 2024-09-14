@@ -33,3 +33,7 @@ saat 06.30-08.00
 
 6.30'dan 7ye sadece okuma yaptığım için  8'e kadar yaptıklarımla beraber birleştirip pushluyorum. "!" operatörü ve Prefix ve postfix++, -- operatörlerinin overloadlanması ve genel olarak unary operatorler member ve non-member fonksiyon olarak overloadlanırken nelere dikkat edilmesi gerektiği üzerine çalıştım.
 **********************************************************************************
+saat 08.20-09.00
+
+deitelin kitabında bir array classı var, o classı şuanda kendim bakmadan 0dan oluşturmaya çalışıyorum, henüz sadece constructorları yazabildim, zamanımın çoğu classı anlamaya çalışmaya gitti
+**********************************************************************************
