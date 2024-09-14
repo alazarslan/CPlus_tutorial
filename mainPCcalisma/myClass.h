@@ -101,7 +101,7 @@ public:
     }
 
     // += Binary overload:
-    inline myClass& operator+=(const myClass& obj) {
+    inline const myClass& operator+=(const myClass& obj) {
         value += obj.value;
         return *this;
     }

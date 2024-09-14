@@ -52,13 +52,10 @@ int main() {
     cin >> obj3;
     cout << "Obj3'un valuesi: " << obj3 << endl;
 
-    Array arr1;
-    int* p = new int[5];
-    for (int i = 0; i < 5; i++) {
-        p[i] = i + 3;
-    }
-    for (int i = 0; i < 5; i++) {
-        cout << p[i] << endl;
-    }
+    obj1 += obj2 += obj3;
+    cout << obj1 << endl;
+
+    Array obje(5);
+    cout << obje[3];
     return 0;
 }
