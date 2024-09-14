@@ -81,3 +81,7 @@ saat 00.00-01.20
 
 abstract class ve interface classlarla alakalı internette yazılar buldum onları okudum, ++ -- [] ve relational (<,==,<= gibi) operatörlerinin overloadlanmasıyla alakalı başka videolar izledim
 **********************************************************************************
+saat 01.20-02.10
+
+çalışmadım, şimdi uyuyacağım sabah 5.30 gibi kalkmayı planlıyorum
+**********************************************************************************
