@@ -37,3 +37,7 @@ saat 08.20-09.00
 
 deitelin kitabında bir array classı var, o classı şuanda kendim bakmadan 0dan oluşturmaya çalışıyorum, henüz sadece constructorları yazabildim, zamanımın çoğu classı anlamaya çalışmaya gitti
 **********************************************************************************
+saat 09.00-10.00
+
+class'a destructor, getsize, !=, ==, = operatörlerini implementledim
+**********************************************************************************
