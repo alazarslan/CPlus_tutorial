@@ -1,0 +1,3 @@
+C:/Users/ALAZ/Documents/GitHub/CPlus_tutorial/mainPCcalisma2/cmake-build-debug/CMakeFiles/mainPCcalisma2.dir
+C:/Users/ALAZ/Documents/GitHub/CPlus_tutorial/mainPCcalisma2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ALAZ/Documents/GitHub/CPlus_tutorial/mainPCcalisma2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
