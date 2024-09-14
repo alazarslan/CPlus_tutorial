@@ -60,5 +60,8 @@ youtubeden operator overloading videoları izledim
 saat 14.20-16.00
 
 çalışmadım
+**********************************************************************************
+saat 16.00-17.00
 
+geçen sene aldığım c++ dersinin pdf notlarına bakıp tekrar yaptım(operator overloading), yapmaya devam ediyorum
 **********************************************************************************
