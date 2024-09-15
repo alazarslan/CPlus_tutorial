@@ -89,3 +89,7 @@ saat 02.20-07.05
 
 normalde 05.45'e alarm koymuştum ama uyanamadım alarmı duymadım, yeni uyandım başlıyorum çalışmaya
 **********************************************************************************
+saat 07.30-09.00
+
+inheritence, protected keyword, abstract class, polymorphism ve virtual keywordlerine çalıştım
+**********************************************************************************
