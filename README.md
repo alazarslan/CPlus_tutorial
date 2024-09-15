@@ -93,3 +93,7 @@ saat 07.30-09.00
 
 inheritence, protected keyword, abstract class, polymorphism ve virtual keywordlerine çalıştım
 **********************************************************************************
+saat 9.30-11.00
+
+aynı konulara pdften çalışmaya devam ettim
+**********************************************************************************
