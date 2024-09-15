@@ -85,3 +85,7 @@ saat 01.20-02.10
 
 çalışmadım, şimdi uyuyacağım sabah 5.30 gibi kalkmayı planlıyorum
 **********************************************************************************
+saat 02.20-07.05
+
+normalde 05.45'e alarm koymuştum ama uyanamadım alarmı duymadım, yeni uyandım başlıyorum çalışmaya
+**********************************************************************************
