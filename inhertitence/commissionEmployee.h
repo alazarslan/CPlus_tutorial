@@ -16,8 +16,8 @@ private:
     double commissionRate;
 public:
     commissionEmployee(const std::string& fname, const std::string& lname,
-                       const std::string& ssn, const double& sales,
-                       const double& commRate);
+                       const std::string& ssn, const double& sales = 0,
+                       const double& commRate = 0);
 
     void setFirstName(const std::string& fname);
     std::string getFirstName() const;

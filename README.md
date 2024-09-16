@@ -133,3 +133,7 @@ saat 06.00-07.00
 
 deitel'in pdfinden inheritence çalışmaya devam ettim
 **********************************************************************************
+saat 07.00-08.00
+
+aldığım notları düzenledim, inheritence çalışmaya devam ettim
+**********************************************************************************
