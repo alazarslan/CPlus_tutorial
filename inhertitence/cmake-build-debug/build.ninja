@@ -61,6 +61,24 @@ build CMakeFiles/inhertitence.dir/Vehicle.cpp.o: CXX_COMPILER__inhertitence_unsc
   OBJECT_DIR = CMakeFiles/inhertitence.dir
   OBJECT_FILE_DIR = CMakeFiles/inhertitence.dir
 
+build CMakeFiles/inhertitence.dir/commissionEmployee.cpp.o: CXX_COMPILER__inhertitence_unscanned_Debug /home/alaz/Documents/GitHub/CPlus_tutorial/inhertitence/commissionEmployee.cpp || cmake_object_order_depends_target_inhertitence
+  DEP_FILE = CMakeFiles/inhertitence.dir/commissionEmployee.cpp.o.d
+  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/inhertitence.dir
+  OBJECT_FILE_DIR = CMakeFiles/inhertitence.dir
+
+build CMakeFiles/inhertitence.dir/BasePlusCommissionEmployee.cpp.o: CXX_COMPILER__inhertitence_unscanned_Debug /home/alaz/Documents/GitHub/CPlus_tutorial/inhertitence/BasePlusCommissionEmployee.cpp || cmake_object_order_depends_target_inhertitence
+  DEP_FILE = CMakeFiles/inhertitence.dir/BasePlusCommissionEmployee.cpp.o.d
+  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/inhertitence.dir
+  OBJECT_FILE_DIR = CMakeFiles/inhertitence.dir
+
+build CMakeFiles/inhertitence.dir/destructorDeneme.cpp.o: CXX_COMPILER__inhertitence_unscanned_Debug /home/alaz/Documents/GitHub/CPlus_tutorial/inhertitence/destructorDeneme.cpp || cmake_object_order_depends_target_inhertitence
+  DEP_FILE = CMakeFiles/inhertitence.dir/destructorDeneme.cpp.o.d
+  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/inhertitence.dir
+  OBJECT_FILE_DIR = CMakeFiles/inhertitence.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target inhertitence
@@ -69,7 +87,7 @@ build CMakeFiles/inhertitence.dir/Vehicle.cpp.o: CXX_COMPILER__inhertitence_unsc
 #############################################
 # Link the executable inhertitence
 
-build inhertitence: CXX_EXECUTABLE_LINKER__inhertitence_Debug CMakeFiles/inhertitence.dir/main.cpp.o CMakeFiles/inhertitence.dir/Vehicle.cpp.o
+build inhertitence: CXX_EXECUTABLE_LINKER__inhertitence_Debug CMakeFiles/inhertitence.dir/main.cpp.o CMakeFiles/inhertitence.dir/Vehicle.cpp.o CMakeFiles/inhertitence.dir/commissionEmployee.cpp.o CMakeFiles/inhertitence.dir/BasePlusCommissionEmployee.cpp.o CMakeFiles/inhertitence.dir/destructorDeneme.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/inhertitence.dir
   POST_BUILD = :

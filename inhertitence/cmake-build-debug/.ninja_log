@@ -1,6 +1,14 @@
 # ninja log v6
 1	326	1726415967178062986	CMakeFiles/inhertitence.dir/Vehicle.cpp.o	87de6e3f7443e165
-1	326	1726415967178062986	CMakeFiles/inhertitence.dir/main.cpp.o	4a291391d58f7d00
-326	378	1726415967502056399	inhertitence	e10fdc380bee9e16
-1	217	1726415985897696950	CMakeFiles/inhertitence.dir/main.cpp.o	4a291391d58f7d00
-217	282	1726415986113692901	inhertitence	e10fdc380bee9e16
+353	404	1726457014108837710	inhertitence	40d2612d07202233
+1	353	1726457013756836196	CMakeFiles/inhertitence.dir/main.cpp.o	4a291391d58f7d00
+1	344	1726457013756836196	CMakeFiles/inhertitence.dir/commissionEmployee.cpp.o	d4e3c569d6491d95
+2	390	1726458956322336149	CMakeFiles/inhertitence.dir/destructorDeneme.cpp.o	d84f3b00116e0e03
+2	393	1726458956322336149	CMakeFiles/inhertitence.dir/BasePlusCommissionEmployee.cpp.o	892b32ce01c9fc91
+1	484	1726458956322336149	CMakeFiles/inhertitence.dir/main.cpp.o	4a291391d58f7d00
+484	555	1726458956802341660	inhertitence	68b41ed2f301cd79
+1	436	1726458982310633749	CMakeFiles/inhertitence.dir/main.cpp.o	4a291391d58f7d00
+436	625	1726458982746638729	inhertitence	68b41ed2f301cd79
+2	462	1726459427454247502	CMakeFiles/inhertitence.dir/destructorDeneme.cpp.o	d84f3b00116e0e03
+2	998	1726459441766072023	CMakeFiles/inhertitence.dir/main.cpp.o	4a291391d58f7d00
+998	1146	1726459442762060074	inhertitence	68b41ed2f301cd79
