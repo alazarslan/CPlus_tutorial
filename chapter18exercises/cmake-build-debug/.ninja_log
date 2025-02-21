@@ -1,0 +1,9 @@
+# ninja log v6
+2	289	1737974582848982814	CMakeFiles/chapter18exercises.dir/main.cpp.o	634c18fc73397883
+289	343	1737974583136990132	chapter18exercises	46fcab5d4660b524
+7	761	1738234989228409606	CMakeFiles/chapter18exercises.dir/main.cpp.o	634c18fc73397883
+7	767	1738234989228409606	CMakeFiles/chapter18exercises.dir/DayTime.cpp.o	681bfcbf90b29cad
+8	953	1738234989228409606	CMakeFiles/chapter18exercises.dir/fractions.cpp.o	f911bf537325630c
+953	1121	1738234990172396008	chapter18exercises	2ebe6d976368066f
+1	333	1738234996136312957	CMakeFiles/chapter18exercises.dir/main.cpp.o	634c18fc73397883
+333	405	1738234996468308485	chapter18exercises	2ebe6d976368066f

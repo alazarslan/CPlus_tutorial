@@ -35,6 +35,9 @@ int main() {
     DerivedClass aziz("aziz",21);
 
 
+    aziz.foo();
+
+    cout << aziz._class << aziz.id << aziz.name << endl;
 
     return 0;
 }

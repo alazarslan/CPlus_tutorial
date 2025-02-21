@@ -1,0 +1,3 @@
+/home/alaz/Documents/GitHub/CPlus_tutorial/hw1demo/cmake-build-debug/CMakeFiles/hw1demo.dir
+/home/alaz/Documents/GitHub/CPlus_tutorial/hw1demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alaz/Documents/GitHub/CPlus_tutorial/hw1demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

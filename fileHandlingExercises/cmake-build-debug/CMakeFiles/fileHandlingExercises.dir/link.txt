@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/fileHandlingExercises.dir/main.cpp.o CMakeFiles/fileHandlingExercises.dir/AlazClass.cpp.o -o fileHandlingExercises

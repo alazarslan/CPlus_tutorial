@@ -1,0 +1,16 @@
+# ninja log v6
+0	17	1728456469107263845	build.ninja	dde6c9feb5da973e
+1	248	1728456469111261973	CMakeFiles/virtualFuncs.dir/myClass.cpp.o	34630978729506a3
+0	248	1728456469111261973	CMakeFiles/virtualFuncs.dir/main.cpp.o	ff65b2aa7fcaf98d
+1	211	1728456499017564952	CMakeFiles/virtualFuncs.dir/myClass.cpp.o	34630978729506a3
+0	227	1728456499017564952	CMakeFiles/virtualFuncs.dir/main.cpp.o	ff65b2aa7fcaf98d
+1	218	1728456545049334275	CMakeFiles/virtualFuncs.dir/myClass.cpp.o	34630978729506a3
+1	228	1728456545049334275	CMakeFiles/virtualFuncs.dir/main.cpp.o	ff65b2aa7fcaf98d
+228	297	1728456545273237558	virtualFuncs	d427ec443aa818cd
+1	203	1728456559954919603	CMakeFiles/virtualFuncs.dir/myClass.cpp.o	34630978729506a3
+1	212	1728456593844484574	CMakeFiles/virtualFuncs.dir/myClass.cpp.o	34630978729506a3
+1	256	1728462272988487650	CMakeFiles/virtualFuncs.dir/myClass.cpp.o	34630978729506a3
+1	269	1728462272988487650	CMakeFiles/virtualFuncs.dir/main.cpp.o	ff65b2aa7fcaf98d
+269	341	1728462273256466674	virtualFuncs	d427ec443aa818cd
+1	206	1728462309485849574	CMakeFiles/virtualFuncs.dir/main.cpp.o	ff65b2aa7fcaf98d
+206	275	1728462309693833274	virtualFuncs	d427ec443aa818cd

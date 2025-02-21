@@ -1,0 +1,1 @@
+Total solutions for N=2: 0
